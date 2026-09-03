@@ -1,0 +1,17 @@
+.DS_Store
+
+# Environment / secrets
+.env
+.env.*
+
+# SwiftPM build artifacts
+.build/
+Package.resolved
+
+# built app bundle (embeds .env)
+dist/
+
+# local Xcode/SwiftPM workspace state
+.swiftpm/
+Scripts/icon/kettle.iconset/
+Scripts/icon/kettle_preview.png
